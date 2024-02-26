@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    color: white;
+    height: 100vh;
+    background-color: #1450A3;
+    /* z-index: -1; */
+}
+
+
+#header{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+    height: 15vh;
+    background-color: #191D88;
+    margin-bottom: 90px;
+    /* width:80vw; */
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    font-family: "Anta", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+/* Search.ejs     */
+
+#searchBar{
+    font-family: "Anta", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+
+/* indexxxxxxxxxxxx */
+
+#anime{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 2px;
+    color: white;
+    width: 98.5vw;
+}
+
+.animeList{
+    width: 13rem;
+}
+
+.animeList img {
+    /* width: 10rem; */
+    height: 18rem;
+}
+
+.animeTitle{
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card{
+    border: none;
+    background-color: transparent !important; 
+}
+
+.container-animeTitle {
+    padding: 10px 0 0 0;
+    color: white;
+}
+
+#search-pages{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 10vh;
+    padding: 10px;
+    gap: 10px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination p {
+    margin-top: 15px;
+    font-size: large;
+}
+
+/* random */
+#containerRandom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#randomAnime{
+    background-color: #337CCF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    width: 80vw;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.descriptionAnime{
+    width: 50vw;
+    text-align: justify;
+
+}
+.descriptionAnime h5{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.randomImage img{
+  border-radius: 20px;
+}

@@ -1,0 +1,28 @@
+<%- include ("./header.ejs") %>
+   
+   <div id="searchBar">
+        <h2>Alime</h2>
+        <!-- <div class="container"> -->
+          <form action="/submit" method="post">
+            <div class="input-group">
+            <!-- <label for="animeName"></label> -->
+            <input class="animeSearch form-control " type="text" placeholder="Enter anime name" name="animeName" aria-label="Search" aria-describedby="search-addon" autocomplete="off" >
+            <input class="buttonAnime btn btn-dark" type="submit" value="Search">
+            <input type="hidden" name="page" value="1">
+          </form>
+          <br>
+        </div>
+        <!-- </div> -->
+        <p>I'm just a copy of 9Anime!</p>
+        <form action="/random" method="post">
+          <input type="submit" name="random" value="Random Anime" class="btn btn-outline-light">
+        </form>
+        
+   </div>
+
+    <%- include("./index.ejs") %>
+   
+
+   
+</body>
+</html>
